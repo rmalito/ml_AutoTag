@@ -7,9 +7,10 @@ program written by Robert Malito (malito2@illinois.edu) with the help of Jack Ma
 
 
 Program Flow:
-PDF -> HTML -> FONT SIZE + TEXT -> SORT ->   TAGS \
-       HTML -> FULL TEXT -> STANFORD NER ->  TAGS  |==> OUTPUT TAGS
-               FULL TEXT -> LDA/LSI MODEL -> TAGS /
+
+PDF ->  HTML -> FONT SIZE + TEXT -> SORT ->   TAGS \
+        HTML -> FULL TEXT -> STANFORD NER ->  TAGS  |==> OUTPUT TAGS
+                FULL TEXT -> LDA/LSI MODEL -> TAGS /
 
 1) PDF document is converted to HTML using seperate script pdf2txt.py
 2) HTML is parsed for FULL TEXT and FONT SIZE tags with their TEXT
@@ -23,19 +24,27 @@ PDF -> HTML -> FONT SIZE + TEXT -> SORT ->   TAGS \
 10) all 3 TAGS lists are merged to form OUTPUT TAGS list
 
 
-|||||||||
 | SETUP |
-|||||||||
 (PYTHON LIBRARIES NEEDED) (Anaconda Comes with a few of these already)
+
 ------------------
+
 nltk		http://www.nltk.org/install.html
+
 stop_words	https://pypi.python.org/pypi/stop-words
+
 gensim		https://radimrehurek.com/gensim/install.html
+
 collections	(python core library) 
+
 operator	(python core library)
+
 os		(python core library)
+
 bs4		https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
 re		(python core library)
+
 ------------------
 
 1) Unpack "pdfminer.six-master.zip" 
@@ -47,16 +56,18 @@ re		(python core library)
 
 example command from git bash on Windows, or other linux like terminal:	
 ------------------
+
 $ python AutoTagv2.py
-------------------
 
 enter pdf location:
 ------------------
+
 AutoTag(pdf): ./test_docs/janitorial_request.pdf
-------------------
+
 
 output:
 ------------------
+
 .pdf to .html conversion complete...
 .html to .txt conversion complete...
 
@@ -67,36 +78,71 @@ output:
 
 
 [ LDA/LSI model topics: ]
+
 city
+
 contractor
+
 shall
+
 service
+
 [ Named Entity Extraction: ]
+
 City
+
 Contractor
+
 Burien
+
 2011
+
 RFP
+
 Community
+
 14700
+
 98166
+
 Services
+
 Washington
+
 Center
+
 Per
+
 Exhibit
+
 RCW
+
 Facilities
+
 Parks
+
 Month
+
 SECTION
+
 Intent
+
 Request
+
 Myron
+
 [ Font Size Extraction: ]
+
 city of burien washington
+
 request for proposals rfp
+
 for
+
 janitorial services
+
 service locations
--------------------# ml_AutoTag
+
+-------------------
+
+# ml_AutoTag
