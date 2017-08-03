@@ -46,7 +46,7 @@ re		(python core library)
 ------------------
 
 1) Unpack "pdfminer.six-master.zip" 
-2) pdf2txt.py is located in subdirectory "pdfminer.six-master\tools" it to same directory as AutoTagv2.py
+2) pdf2txt.py is located in subdirectory "pdfminer.six-master\tools" move it to same directory as AutoTagv2.py
 3) install libraries as needed (see links above for help)
 
 
