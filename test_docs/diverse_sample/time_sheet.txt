@@ -1,0 +1,31 @@
+Approving Timesheets in UTA – Individual Approval
+You must approve your Employees’ timesheets in order for them to be included in the payroll.
+Read on for instructions on how to approve timesheets one at a time for the Employees on your team.
+Approving Timesheets One at a Time
+1. Access UltiPro via the Hub Tile or HR Portal.
+2. Click on the Menu tab in the upper left hand corner of the screen.
+3. Click on the My Team tab.
+4. Click on Time & Attendance.
+5. UltiPro Time and Attendance will open in a separate window. Note: If the separate window does not appear, make sure all pop-up blockers are off and try again.
+6. Click on Daily TS.
+© Hyland Software, Inc. All rights reserved.
+7. On the Timesheet Selection page, you have the option of viewing selected Employees or
+your entire team. You can click Timesheet Selection to expand and collapse the selection criteria.
+A. To view selected Employees click on the magnifying glass next to the Employee field and select the check box next to the name(s) of the Employees you would like
+to view.
+Then click Submit.
+B. To view your team click on the magnifying glass next to the Team field and select
+the check box next to your team.
+Then click Submit.
+© Hyland Software, Inc. All rights reserved.
+8. Back on the Timesheet Selection page; select the time frame you’d like to view from the Date Selection drop down.
+9. In the Authorization drop down, make sure All is selected so that you are seeing all timesheets, whether they’ve been authorized (aka approved) by the employee or not.
+10. Click Go. The Employee timesheet(s) will appear.
+11. The Daily Timesheet view displays in and out punches for the time period selected, enabling you to quickly identify missed punches, time clock gaps and other anomalies.
+12. Expand the Work Details (triangle on far left) to review the details of each day.
+© Hyland Software, Inc. All rights reserved.
+13. When you’re ready to approve the timesheet, click on the red X (under Acknowledge Timesheet) and select the green checkmark to Authorize All.
+14. Select Submit – all days in the pay period are
+now approved!
+15. You can click the Show Edits (next to the Submit button) to see the approvals that have been made for each day.
+16. Select another timesheet to approve from the drop down list near the top of the screen and repeat the steps above for each employee that clocks time on your team.
