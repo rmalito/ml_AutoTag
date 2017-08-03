@@ -8,10 +8,6 @@ program written by Robert Malito (malito2@illinois.edu) with the help of Jack Ma
 
 Program Flow:
 
-PDF ->  HTML -> FONT SIZE + TEXT -> SORT ->   TAGS \
-        HTML -> FULL TEXT -> STANFORD NER ->  TAGS  |==> OUTPUT TAGS
-                FULL TEXT -> LDA/LSI MODEL -> TAGS /
-
 1) PDF document is converted to HTML using seperate script pdf2txt.py
 2) HTML is parsed for FULL TEXT and FONT SIZE tags with their TEXT
 3) FONT SIZE + TEXT is sorted then counted
